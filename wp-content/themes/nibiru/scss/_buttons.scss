@@ -1,0 +1,157 @@
+/* #buttons
+--------------------------------------------------*/
+
+.btn:active,
+.btn.active,
+.btn:hover,
+.btn {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.outline-button
+{
+	font-size:15px;
+	letter-spacing:1px;
+	font-weight:600;
+	text-align:center;
+	cursor:pointer;
+	text-transform:uppercase;
+	background-color:transparent;
+	@include border-radius(2px);
+	@include transition-fade(0.2s);
+}
+
+
+
+.banner-button
+{
+	font-size:20px;
+	padding:35px 0 38px;
+	font-weight:500;
+	text-align:center;
+	cursor:pointer;
+	@include transition-fade(0.2s);
+	@include border-radius(0px);
+}
+
+.outline-button:focus
+{
+	outline:none;
+}
+
+.outline-button.blue:hover
+{
+	border:1px solid $blue;
+	background-color:$blue;
+}
+
+
+
+
+.po-slider-buttons {
+
+	.btn-sm
+	{
+		font-size:13px;
+	}
+
+}
+
+.button-icon-left {
+	font-size:13px;
+}
+
+
+.button-icon-left span {
+	font-size:14px;
+	position:absolute;
+	left: 0px;
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.button-icon-left:hover span {
+	left: 34px;
+	opacity: 1;
+}
+
+.button-icon-left-manual {
+	font-size:15px;
+}
+
+.button-icon-left-manual span {
+	font-size:14px;
+	position:absolute;
+	left: 0px;
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.button-icon-left-manual:hover span {
+	left: 16px;
+	opacity: 1;
+}
+
+.btn-icon-ani {
+	
+	overflow: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.btn-icon-ani span {
+	display: inline-block;
+	-webkit-transition: all 0.3s;
+	-webkit-backface-visibility: hidden;
+	-moz-transition: all 0.3s;
+	-moz-backface-visibility: hidden;
+	transition: all 0.3s;
+	backface-visibility: hidden;
+}
+
+.btn-icon-ani:hover span {
+	-webkit-transform: translateY(300%);
+	-moz-transform: translateY(300%);
+	-ms-transform: translateY(300%);
+	transform: translateY(300%);
+}
+
+
+.btn-icon
+{
+	position: absolute;
+	width: 5%;
+	left:50%;
+	margin-left:-2.5%;
+	line-height: 0;
+	font-size:19px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	opacity:0;
+}
+
+.btn-icon-ani:hover .btn-icon {
+	opacity:1;
+	top: 11px;
+}
+
+@media(max-width:767px){
+	.banner-button.btn-icon-ani:hover .btn-icon {
+		opacity:1;
+		top: 40px;
+	}
+}
+
+@media(min-width:768px){
+	.banner-button.btn-icon-ani:hover .btn-icon {
+		opacity:1;
+		top: 40px;
+	}
+}

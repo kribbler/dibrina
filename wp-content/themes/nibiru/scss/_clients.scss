@@ -1,0 +1,40 @@
+/* #clients
+--------------------------------------------------*/
+
+.client-image {
+	display: block;
+	text-align: center;
+	padding:0;
+}
+
+.client-image .client-container {
+	display: block;
+	position: relative;
+}
+
+.client-image .client-container .client-details {
+	opacity: 0.7;
+	@include transition-fade(0.2s);
+}
+
+
+.client-image .client-container:hover .client-details {
+	opacity: 0;
+}
+
+.client-details {
+
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	-webkit-transition-property: background-color;
+	-moz-transition-property: background-color;
+	-o-transition-property: background-color;
+	transition-property: background-color;
+	-webkit-transition-duration: 0.4s;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition-duration: 0.4s;
+}

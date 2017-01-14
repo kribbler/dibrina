@@ -1,0 +1,151 @@
+/* #widgets
+--------------------------------------------------*/
+.search-icon-form-sidebar
+{
+	position:absolute;
+	margin-left:3px;
+	margin-top:3px;
+	cursor:pointer;
+	padding:10px;
+	color:#ccc;
+}
+
+.search-field-sidebar
+{
+	font-size:15px;
+    background-color: transparent;
+    color: #333;
+    width: 100%;
+	line-height:1.1;
+	padding:9px 8px 9px 36px;
+	margin:0 0 5px;
+	@include border-radius(2px);
+	@include transition-fade(0.3s);
+	
+}
+
+.widgettitle
+{
+	font-weight:600;
+	margin-top:50px;
+	margin-bottom:20px;
+
+}
+
+.widget-area
+{
+	margin-bottom:50px;
+}
+
+.widget-area ul
+{
+	padding:0;
+	margin:0;
+}
+
+.widget-area table
+{
+	border: 1px solid #e1e1e1;
+	padding:5px;
+	@include border-radius(3px);
+	border-collapse: separate;
+	border-spacing: 5px;
+}
+
+.widget-area td,
+.widget-area th
+{
+	text-align:center;
+}
+
+.widget-area tfoot td#prev
+{
+	text-align:left;
+}
+
+.widget-area tfoot td#next
+{
+	text-align:right;
+}
+
+
+.widget-list ul
+{
+	padding:0;
+	margin:0;
+}
+
+.widget ul li ul li
+{
+	border-bottom:none;
+	padding:6px 0;
+	color:#888;
+}
+
+.widget ul li ul li:before
+{
+	content:"\f105";
+	font-family: FontAwesome;
+	color:#444;
+	margin-right:5px;
+}
+
+.widget ul li
+{
+	border-bottom:1px solid #e1e1e1;
+	padding:6px 0;
+	color:#888;
+}
+
+.widget ul li ul
+{
+	padding:6px 0 6px 20px;
+	color:#888;
+}
+
+.widget > ul li
+{
+	border-bottom:1px solid #e1e1e1;
+	padding:6px 0;
+	color:#888;
+}
+
+.widget ul li a
+{
+	color:#444;
+}
+
+.widget_calendar caption {
+	color: #333;
+	font-weight: 600;
+	line-height: 1.7142857142;
+	margin-bottom: 18px;
+	text-align: left;
+}
+
+.widget-area > li
+{
+	margin-bottom: 40px;
+	clear:both;
+}
+
+.tagcloud a
+{
+	font-size:14pt;
+	width:auto;
+	margin:0 5px 5px 0;
+	line-height:2.8;
+	color:#777;
+	padding:5px 10px;
+	border:1px solid #ccc;
+	background-color:#f7f7f7;
+	vertical-align:top;
+	@include border-radius(3px);
+}
+
+.tagcloud a:hover
+{
+	color:#fff;
+}
+
+

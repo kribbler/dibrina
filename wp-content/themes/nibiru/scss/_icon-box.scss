@@ -1,0 +1,342 @@
+/* #icon-box
+--------------------------------------------------*/
+
+.section-background-image,
+.section-background-image-fixed,
+.section-background-image-parallax,
+.section-background-image-video,
+.section-background-custom-white,
+.section-background-custom-dark
+{
+.icon-box
+{
+	width:70px;
+	height: 70px;
+	display: table; 
+	overflow: hidden;
+	margin-left:auto;
+	margin-right:auto;
+	@include border-radius(4px);
+}
+}
+
+.icon-box-container
+{
+	height: 80px;
+}
+
+.icon-box
+{
+	width:80px;
+	height: 80px;
+	display: table; 
+	overflow: hidden;
+	margin-left:auto;
+	margin-right:auto;
+	@include border-radius(100px);
+}
+
+.icon-float span
+{
+	color:#333;
+}
+
+
+.icon-box,
+.icon-boxless,
+.icon-float {
+
+	i {
+		display: table-cell; 
+		vertical-align: middle;
+		text-align:center;
+	}
+	
+	.icon-char {
+		display: table-cell; 
+		vertical-align: middle;
+		text-align:center;
+	}
+}
+
+.icon-box,
+.icon-float
+{	
+.icon-char {
+		font-size:35px;
+		font-weight:600;
+	}
+}
+
+@media(max-width:767px){
+.icon-box-line
+{
+	width:20%; 
+	margin:4px auto 0px; 
+	border-top:1px solid #e1e1e1;
+	margin-bottom:23px;
+	@include transition-fade(0.2s);
+
+}
+}
+
+@media(min-width:768px){
+.icon-box-line
+{
+	width:50%; 
+	margin:4px auto 0px; 
+	border-top:1px solid #e1e1e1;
+	margin-bottom:23px;
+	@include transition-fade(0.2s)
+
+}
+}
+
+@media(min-width:768px){
+.po-column .po-icon-box:hover .icon-box-line
+{
+	width:70%; 
+
+}
+}
+
+.icon-boxless {	
+	.icon-char {
+		font-size:55px;
+		font-weight:600;
+		line-height:55px;
+	}
+}
+
+.po-icon-title {
+	.icon-char {
+		font-size:19px;
+		font-weight:600;
+		line-height:29px;
+	}
+}
+
+.po-icon {
+	.icon-char {
+		font-size:45px;
+		font-weight:600;
+		line-height:40px;
+	}
+}
+
+.icon-section-left-small {
+	display: table-cell; 
+	vertical-align: top;
+}
+
+.icon-section-left {
+	@extend .icon-section-left-small;
+	padding-right:25px;
+}
+
+
+
+.details-section-right {
+	display: table-cell; 
+	vertical-align: top;
+}
+
+.details-section-right h4 {
+	line-height:1;
+}
+
+
+.icon-box-side
+{
+	@extend .icon-box;
+	width:65px;
+	height: 65px;
+}
+
+.po-icon-box h4,
+.po-icon-boxless h4,
+.po-icon-float h4,
+.po-icon-box-left h4,
+.po-icon-small h4,
+.po-icon-left h4
+{
+	font-weight:600;
+}
+
+.po-icon-box h4,
+.po-icon-boxless h4,
+.po-icon-float h4,
+.po-icon-box h6,
+.po-icon-boxless h6,
+.po-icon-float h6
+{
+	margin:25px 0 20px;
+	@include transition-fade(0.1s);
+}
+
+.po-icon-box-left h4,
+.po-icon-box-left h6
+
+{
+	margin:0px 0 20px;
+	@include transition-fade(0.1s);
+}
+
+.po-icon-small h4,
+.po-icon-small h6
+{
+	margin:5px 0 20px;
+	@include transition-fade(0.1s);
+}
+
+.po-icon-left h4
+
+{
+	margin:0 0 20px;
+	@include transition-fade(0.1s);
+}
+
+.po-icon-left h6
+
+{
+	margin:0 0 16px;
+	@include transition-fade(0.1s);
+}
+
+.icon-boxless
+{
+	width:80px;
+	display: table; 
+	overflow: hidden;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.icon-float
+{
+	width: 70px;
+	height: 74px; 
+	display: table; 
+	overflow: hidden;
+	margin-top:-37px;
+	position:absolute;
+	z-index:99;
+	@include border-radius(4px);
+}
+
+.icon-bg
+{
+	background-color:#FFF; 
+	padding:30px; 
+	margin-top:37px;
+	@include border-radius(4px);
+}
+
+
+.po-column .po-icon-box .icon-green,
+.po-column .po-icon-float .icon-green,
+.po-column .po-icon-boxless .icon-green,
+.po-column .po-icon-box-left .icon-green
+{
+	@include transition-fade(0.1s);
+}
+
+
+.section-background-white
+{
+
+	.po-icon-box .icon-box,
+	.po-icon-box-left .icon-box,
+	.po-icon-box-float .icon-box
+	{
+		background-color: #fff;
+	}
+
+}
+
+.section-background-light
+{
+
+	.po-icon-box .icon-box,
+	.po-icon-box-left .icon-box,
+	.po-icon-box-float .icon-box
+	{
+		background-color: #f5f5f5;
+	}
+
+}
+
+.section-background-dark
+{
+
+	.po-icon-box .icon-box,
+	.po-icon-box-left .icon-box,
+	.po-icon-box-float .icon-box
+	{
+		background-color: #1B2124;
+	}
+
+}
+
+.po-column .icon-boxless-green
+{
+	@include transition-fade(0.1s);
+}
+
+
+.po-column po-icon-box.icon-green,
+.po-column po-icon-float.icon-green,
+.po-column po-icon-boxless.icon-green,
+.po-column po-icon-box-left.icon-green
+{
+	@include transition-fade(0.1s);
+}
+
+.entry-content .po-icon-left table
+ {
+	border-collapse: separate;
+	border-spacing: 0;
+	border-width: 0 0 0 0;
+	margin-bottom: 0;
+	width: 100%;
+}
+
+.po-icon-left table td
+{
+	vertical-align:top;
+	
+}
+
+.icon-td
+{
+
+	width:50px;
+
+}
+
+.po-icon
+{
+	margin-right:25px;
+}
+
+.po-icon-title
+{
+	margin-right:15px;
+}
+
+.float-header
+{
+	font-size:19px;
+	color:#333;
+	font-weight:600;
+}
+
+.float-text
+{
+	font-size:15px;
+	color:#444;
+	margin-top:10px;
+}
+
+
+

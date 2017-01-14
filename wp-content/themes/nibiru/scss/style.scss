@@ -1,0 +1,120 @@
+/*-----------------------------------------------------------------------------------
+
+	Theme Name: Nibiru
+	Description: A responsive, multi-purpose theme for creative teams and individuals. Built by <a href="http://www.pixelobject.com">Pixelobject</a>. Follow us on <a href='http://twitter.com/pixelobjecthq'>Twitter</a> and <a href='https://www.facebook.com/pixelobject'>Facebook</a>.
+	Theme URI: http://pixelobject.com/themes/nibiru/
+	Author: Pixelobject
+	Author URI: http://www.pixelobject.com
+	Tags: four-columns, responsive-layout, custom-background, custom-colors, custom-menu, featured-images, sticky-post, theme-options, threaded-comments
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 2.1.1
+	All files, unless otherwise stated, are released under the GNU General Public License
+	version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+
+-----------------------------------------------------------------------------------*/
+
+/* Table of Contents
+--------------------------------------------------
+
+	#structure
+	#blog
+	#navbar
+	#headers
+	#buttons
+	#po-slider
+	#animations
+	#icon-box
+	#count
+	#portfolio
+	#progress-bars
+	#contact
+	#footer
+	#clients
+	#team
+	#testimonials
+	#social
+	#search
+	#color
+	#widgets
+	#modal
+
+--------------------------------------------------*/
+
+$blue-transparent: rgba(80, 202, 210, 0.5);
+$green-transparent: rgba(32, 197, 150, 0.5);
+$background-dark: #15191B;
+$dark-transparent: rgba(21,25,27,0.5);
+$blue: rgba(80, 202, 210, 1);
+$green: #20C596;
+$light-green: #3BCCA3;
+$lighter-green: #70DABC;
+
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	   -moz-border-radius: $radius;
+	    -ms-border-radius: $radius;
+	     -o-border-radius: $radius;
+		    border-radius: $radius;
+}
+
+@mixin border-radius-left($radius) {
+		-webkit-border-top-left-radius: $radius;
+	 -webkit-border-bottom-left-radius: $radius;
+			-moz-border-radius-topleft: $radius;
+		 -moz-border-radius-bottomleft: $radius;
+				border-top-left-radius: $radius;
+			 border-bottom-left-radius: $radius;
+}
+
+@mixin border-radius-right($radius) {
+		-webkit-border-top-right-radius: $radius;
+	 -webkit-border-bottom-right-radius: $radius;
+			-moz-border-radius-topright: $radius;
+		 -moz-border-radius-bottomright: $radius;
+				border-top-right-radius: $radius;
+			 border-bottom-right-radius: $radius;
+}
+
+@mixin box-sizing($box) {
+	  -webkit-box-sizing: $box;
+		 -moz-box-sizing: $box;
+			  box-sizing: $box;
+}
+
+@mixin transition-fade($time) {
+			transition: all $time ease-in-out;
+	-webkit-transition: all $time ease-in-out;
+	   -moz-transition: all $time ease-in-out;
+}
+
+@mixin shadow($distance) {
+	-webkit-box-shadow: 0px $distance 8px 0px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:    0px $distance 8px 0px rgba(0, 0, 0, 0.5);
+	box-shadow:         0px $distance 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+@import 'structure';
+@import 'blog';
+@import 'navbar';
+@import 'headers';
+@import 'buttons';
+@import 'po-slider';
+@import 'animations';
+@import 'icon-box';
+@import 'count';
+@import 'portfolio';
+@import 'progress-bars';
+@import 'contact';
+@import 'footer';
+@import 'clients';
+@import 'team';
+@import 'testimonials';
+@import 'social';
+@import 'search';
+@import 'color';
+@import 'widgets';
+@import 'modal';
+
+
+

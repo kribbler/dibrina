@@ -1,0 +1,82 @@
+/* #contact
+--------------------------------------------------*/
+
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea
+{
+	font-size:15px;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+	line-height:1.1;
+	padding:5px 9px;
+	margin:0 0 5px;
+	@include border-radius(2px);
+	@include transition-fade(0.3s);
+	
+}
+
+.wpcf7 input[type="submit"]
+{
+
+	font-size:15px;
+	letter-spacing:1px;
+	font-weight:600;
+	text-align:center;
+	cursor:pointer;
+	text-transform:uppercase;
+	background-color:transparent;
+	@include border-radius(2px);
+	@include transition-fade(0.3s);
+	padding:10px 15px;
+
+}
+
+.wpcf7-not-valid-tip{
+  display: none !important;
+}
+
+form.invalid input.wpcf7-not-valid{
+  border:1px solid #dd3333;
+}
+
+.section-background-dark,
+.section-background-image,
+.section-background-image-fixed,
+.section-background-image-parallax,
+.section-background-image-video,
+.section-background-dark po-header,
+.section-background-custom-white,
+.section-background-custom-dark
+{
+	.wpcf7 input[type="text"],
+	.wpcf7 input[type="email"],
+	.wpcf7 textarea
+	{
+		color: #fff;	
+	}
+	
+	.wpcf7-response-output
+	{
+		color:#fff;
+	}
+}
+
+.section-background-white,
+.section-background-light
+{
+	
+	.wpcf7 input[type="text"],
+	.wpcf7 input[type="email"],
+	.wpcf7 textarea
+	{
+		color: #333;	
+	}
+
+	.wpcf7-response-output
+	{
+		color:#333;
+	}
+}

@@ -1,0 +1,155 @@
+/* #social
+--------------------------------------------------*/
+
+.footer-links
+{
+	margin-top:18px;
+}
+
+.footer-links li,
+.entry-content .social-links li,
+.team-content .social-links li,
+.footer-container .social-links li
+{
+	float:left;
+	margin-left:-1px;
+	list-style:none;
+	margin-top:13px;
+}
+
+.footer-links li .index,
+.social-links li .index
+{
+	text-align:center;
+	padding: 8px 13px;
+  	font-size: 15px;
+  	line-height: 1.5;
+	border:1px solid transparent;
+	@include transition-fade(0.2s);
+	position: relative;
+	
+}
+
+ul.social-links
+{
+	padding:0px 0 48px;
+	
+}
+
+.social-links li
+{
+	color:#333;
+	
+}
+
+
+ul.footer-links
+{
+padding:0;
+
+}
+
+.footer-links .index.fb:hover,
+.social-links .index.fb:hover
+{
+	color:#fff;
+	border:1px solid #3B5998;
+	background-color:#3B5998;
+	z-index: 2;
+}
+
+.footer-links .index.twit:hover,
+.social-links .index.twit:hover
+{
+	color:#fff;
+	border:1px solid #4099FF;
+	background-color:#4099FF;
+	z-index: 2;
+}
+
+.footer-links .index.goog:hover,
+.social-links .index.goog:hover
+{
+	color:#fff;
+	border:1px solid #D34836;
+	background-color:#D34836;
+	z-index: 2;
+}
+
+.footer-links .index.pint:hover,
+.social-links .index.pint:hover
+{
+	color:#fff;
+	border:1px solid #C92228;
+	background-color:#C92228;
+	z-index: 2;
+}
+
+.footer-links .index.yt:hover,
+.social-links .index.yt:hover
+{
+	color:#fff;
+	border:1px solid #D00D25;
+	background-color:#D00D25;
+	z-index: 2;
+}
+
+.footer-links .index.vimeo:hover,
+.social-links .index.vimeo:hover
+{
+	color:#fff;
+	border:1px solid #00ADEA;
+	background-color:#00ADEA;
+	z-index: 2;
+}
+
+.footer-links .index.linked:hover,
+.social-links .index.linked:hover
+{
+	color:#fff;
+	border:1px solid #4875B4;
+	background-color:#4875B4;
+	z-index: 2;
+}
+
+.footer-links .index.git:hover,
+.social-links .index.git:hover
+{
+	color:#fff;
+	border:1px solid #4083BF;
+	background-color:#4083BF;
+	z-index: 2;
+}
+
+.footer-links .index.insta:hover,
+.social-links .index.insta:hover
+{
+	color:#fff;
+	border:1px solid #4E433C;
+	background-color:#4E433C;
+	z-index: 2;
+}
+
+.footer-links .index.fours:hover,
+.social-links .index.fours:hover
+{
+	color:#fff;
+	border:1px solid #8FD400;
+	background-color:#8FD400;
+	z-index: 2;
+}
+
+.footer-links .index.flickr:hover,
+.social-links .index.flickr:hover
+{
+	color:#fff;
+	border:1px solid #FE0883;
+	background-color:#FE0883;
+	z-index: 2;
+}
+
+.footer-links .index.green:hover,
+.social-links .index.green:hover
+{
+	z-index: 2;
+}

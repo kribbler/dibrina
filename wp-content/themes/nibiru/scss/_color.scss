@@ -1,0 +1,68 @@
+/* #color
+--------------------------------------------------*/
+
+@media(max-width:767px){
+.quick_contact{
+	display:none;
+}
+}
+
+.color-select li
+{
+	float:left;	
+	margin-top:12px;
+}
+.color-select li a
+{
+	width:22px;
+	height:20px;
+	display:block;
+	border:2px solid #444;
+	margin-right:5px;
+}
+
+.color-select li a:hover
+{
+	border:2px solid #eee;
+	
+}
+
+.quick_contact{
+ background:#222;
+  padding:0 12px 12px 12px;
+  width:auto;
+  position:fixed;
+  left:-183px;
+  z-index:999999999999999999;
+  margin-top:600px;
+}
+.coffee
+{
+	position:absolute;
+	margin-left:171px;
+	 background:#fff;
+	 padding:10px 14px 10px 15px;
+	 -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); 
+	 -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); 
+	 box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+	 -webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	cursor:pointer;
+}
+
+.coffee i
+{
+	font-size:22px;
+	 transition: all 0.2s ease-in-out;
+  	-webkit-transition: all 0.2s ease-in-out;
+ 	 -moz-transition: all 0.2s ease-in-out;
+}
+
+.coffee:hover i
+{
+	color:#20C596;
+}

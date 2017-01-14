@@ -1,0 +1,886 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: Nibiru v1.4\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Language: es\n"
+"X-Generator: Poedit 1.6.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Edit Footer Column"
+msgstr "Columna Editar Pie de página"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Footer Columns"
+msgstr "Las columnas de pie de página"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "No Footer Column found"
+msgstr "No columna Footer encontrado"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "No Footer Column found in Trash"
+msgstr "No columna Footer encontrada en la basura"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Footer Column:"
+msgstr "Padres Columna pie de página:"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Search Footer Columns"
+msgstr "Las columnas de pie de página Buscar"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Update Footer Column"
+msgstr "Columna actualización Pie de página"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "View Footer Column"
+msgstr "Columna Pie de página"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Add New Testimonial Category"
+msgstr "Crear Nuevo Testimonio Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "All Testimonial Categories"
+msgstr "Testimonio Todas las categorías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Edit Testimonial Category"
+msgstr "Editar Testimonial Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "New Testimonial Category Name"
+msgstr "Nuevo Testimonio Nombre Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Testimonial Category"
+msgstr "Padres Categoría Testimonial"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Testimonial Category:"
+msgstr "Padres Categoría Testimonio:"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Search Testimonial Categories"
+msgstr "Buscar Testimonial Categorías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Testimonial Categories"
+msgstr "testimonial Categorías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Update Testimonial Category"
+msgstr "Actualizar Testimonial Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Carousel"
+msgstr "Carrusel"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Carousels"
+msgstr "Carruseles"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Edit Carousel Item"
+msgstr "Editar Carousel artículo"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "No Carousel items found"
+msgstr "No hay elementos que se encuentran carrusel"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "No Carousel items found in Trash"
+msgstr "No hay elementos de carrusel que se encuentran en la basura"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Carousel:"
+msgstr "Carrusel de Padres:"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Search Carousel Items"
+msgstr "Buscar Carrusel Artículos"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Update Carousel Item"
+msgstr "Update Carousel artículo"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "View Carousel Item"
+msgstr "Ver Carousel artículo"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Add New Carousel Category"
+msgstr "Crear Nuevo carrusel Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "All Carousel Categories"
+msgstr "Todos Carrusel Categorías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Carousel Categories"
+msgstr "Carrusel Categorías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Edit Carousel Category"
+msgstr "Editar Carousel Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "New Carousel Category Name"
+msgstr "Nuevo carrusel Categoría Nombre"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Carousel Category"
+msgstr "Carrusel de Padres Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Carousel Category:"
+msgstr "Carrusel de Padres Categoría:"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Search Carousel Categories"
+msgstr "Buscar Carrusel Categorías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Update Carousel Category"
+msgstr "Actualizar Carousel Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Edit Testimonials"
+msgstr "Editar Testimonios"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "No Testimonials found"
+msgstr "No se han encontrado Testimonios"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "No testimonials found in Trash"
+msgstr "No se han encontrado en la basura testimonios"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Testimonials:"
+msgstr "Testimonios de los Padres:"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Search Testimonials"
+msgstr "Búsqueda Testimonios"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Testimonials"
+msgstr "Testimonios"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Update Testimonials"
+msgstr "Update Testimonios"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "View Testimonials"
+msgstr "Ver Testimonios"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Edit Portfolio Item"
+msgstr "Editar Portafolio artículo"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "No portfolio items found"
+msgstr "No hay elementos que se encuentran en cartera"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "No portfolios items found in Trash"
+msgstr "No hay elementos que se encuentran en carpetas de la papelera"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Portfolio:"
+msgstr "Cartera de Padres:"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Portfolio"
+msgstr "Cartera"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Portfolios"
+msgstr "Portafolios"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Search portfolio Items"
+msgstr "Buscar cartera Artículos"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Update Portfolio Item"
+msgstr "Actualización de Cartera artículo"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "View Portfolio Item"
+msgstr "Ver galería de artículos"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Clients"
+msgstr "Clientela"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Edit Client"
+msgstr "Edit Client"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "No cliens found"
+msgstr "No se han encontrado Cliens"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "No clients found in Trash"
+msgstr "No se han encontrado en la basura clientes"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Client:"
+msgstr "Cliente de Padres:"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Search Client"
+msgstr "Búsqueda de Clientes"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Update Client"
+msgstr "actualización del cliente"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "View Clients"
+msgstr "Ver clientes"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Add New Slider Title Category"
+msgstr "Crear Nuevo deslizador Título Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "All Slider Title Categories"
+msgstr "Todos deslizante Título Categorías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Edit Slider Title Category"
+msgstr "Editar deslizante Título Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "New Slider Title Category Name"
+msgstr "Nueva deslizante Título Nombre Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Slider Title Category"
+msgstr "Padres deslizante Título Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Slider Title Category:"
+msgstr "Padres deslizante Título Categoría:"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "ST Categories"
+msgstr "ST Categorías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Search Slider Title Categories"
+msgstr "Buscar deslizante Título Categorías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Update Slider Title Category"
+msgstr "Update deslizante Título Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Add New Footer Column Category"
+msgstr "Crear Nuevo Pie Columna Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "All Footer Column Categories"
+msgstr "Todas las columnas de pie de página Categorías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Edit Footer Column Columnonial Category"
+msgstr "Editar Pie de Columna Columnonial Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Footer Column Categories"
+msgstr "De pie de página de la columna Categorías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "New Footer Column Category Name"
+msgstr "Nueva columna de pie de página Nombre Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Footer Column Category"
+msgstr "Columna Pie de Padres Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Footer Column Category:"
+msgstr "Columna Pie de Padres Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Search Footer Column Categories"
+msgstr "Búsqueda de pie de página de la columna Categorías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Update Footer Column Category"
+msgstr "Actualizar Pie Columna Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Edit Team Member"
+msgstr "Edit Team Member"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "No Team Members found"
+msgstr "No hay miembros del equipo que se encuentran"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "No teams members found in Trash"
+msgstr "No hay miembros de los equipos que se encuentran en la basura"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Team:"
+msgstr "Equipo de Padres:"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Search Team Members"
+msgstr "Miembros del equipo Buscar"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Team"
+msgstr "Equipo"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Update Team Member"
+msgstr "Update Miembro del Equipo"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "View Team Member"
+msgstr "Ver equipo Miembro"
+
+#. Text in function
+#: nibiru/inc/love-it-pro/includes/widgets.php:1
+msgid "Most Loved Items"
+msgstr "Objetos más queridos"
+
+#. Text in echo
+#: nibiru/inc/love-it-pro/includes/widgets.php:78
+msgid "Number to Show:"
+msgstr "Number to Show:"
+
+#. Text in function
+#: nibiru/inc/love-it-pro/includes/widgets.php:1
+msgid "Show the most loved items"
+msgstr "Mostrar los elementos más queridos"
+
+#. Text in echo
+#: nibiru/inc/love-it-pro/includes/widgets.php:74
+msgid "Title:"
+msgstr "Título:"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Add New Client Category"
+msgstr "Agregar nueva categoría de cliente"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "All Client Categories"
+msgstr "Todas las categorías de clientes"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Client Categories"
+msgstr "Categorías de cliente"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Edit Client Category"
+msgstr "Categoría Edit Client"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "New Client Category Name"
+msgstr "Nuevo Cliente Nombre Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Client Category"
+msgstr "Padres Categoría Client"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Client Category:"
+msgstr "Padres Categoría del cliente:"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Search Client Categories"
+msgstr "Búsqueda de Clientes Categorias"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Update Client Category"
+msgstr "Actualice Categoría Client"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Add New Team Category"
+msgstr "Crear Nuevo Equipo Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "All Team Categories"
+msgstr "Todas las categorías Equipo"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Edit Team Category"
+msgstr "Editar equipo Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "New Team Category Name"
+msgstr "New Team Nombre Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Team Category"
+msgstr "Equipo de Padres Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Team Category:"
+msgstr "Equipo de Padres Categoría:"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Search Team Categories"
+msgstr "Search Team Categorías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Team Categories"
+msgstr "Team Categorías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Update Team Category"
+msgstr "Update Equipo Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Add New"
+msgstr "Crear Nuevo"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Edit Slider Titles"
+msgstr "Editar deslizante Títulos"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "No Slider Titles found"
+msgstr "No hay títulos deslizantes que se encuentran"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "No Slider Titles found in Trash"
+msgstr "No hay títulos deslizantes que se encuentran en la basura"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Slider Titles:"
+msgstr "Padres Títulos deslizante:"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Search Slider Titles"
+msgstr "Buscar deslizante Títulos"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Slider Titles"
+msgstr "Deslizador Títulos"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Update Slider Titles"
+msgstr "Update deslizante Títulos"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "View Slider Titles"
+msgstr "Vista del control deslizante Títulos"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Edit Gallery"
+msgstr "Editar Galería"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Galleries"
+msgstr "Galerías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Gallery"
+msgstr "Galería"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "No Galleries found"
+msgstr "No se han encontrado galerías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "No Galleries found in Trash"
+msgstr "No se han encontrado en la basura Galerías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Gallery:"
+msgstr "Padres de la galería:"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Search Galleries"
+msgstr "Buscar Galerías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Update Gallery"
+msgstr "Update Galería"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "View Gallery"
+msgstr "Ver galería"
+
+#. Text in function
+#: nibiru/format-quote.php:25 nibiru/content-single.php:23
+#: nibiru/format.php:23 nibiru/format-video.php:24 nibiru/format-image.php:25
+#: nibiru/format-aside.php:17 nibiru/format-link.php:30
+msgid "% Comments"
+msgstr "% Comentarios"
+
+#. Text in function
+#: nibiru/comments.php:14
+msgid "% comments"
+msgstr "% comentarios"
+
+#. Text in function
+#: nibiru/inc/template-tags.php:80
+msgid "%s"
+msgstr "%s"
+
+#. Text in function
+#: nibiru/comments.php:36
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarios más viejos"
+
+#. Text in function
+#: nibiru/format-quote.php:25 nibiru/content-single.php:23
+#: nibiru/format.php:23 nibiru/format-video.php:24 nibiru/format-image.php:25
+#: nibiru/format-aside.php:17 nibiru/format-link.php:30
+msgid "1 Comment"
+msgstr "1 Comentario"
+
+#. Text in function
+#: nibiru/inc/template-tags.php:40
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Mayores"
+
+#. Text in echo
+#: nibiru/comments.php:35
+msgid "Comment navigation"
+msgstr "Comentario de navegación"
+
+#. Text in echo
+#: nibiru/comments.php:47
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#. Text in function
+#: nibiru/format-quote.php:18 nibiru/format.php:16 nibiru/format-video.php:17
+#: nibiru/format-image.php:18 nibiru/format-aside.php:10
+#: nibiru/format-link.php:23
+msgid "Continue reading &rarr;"
+msgstr "Sigue leyendo &rarr;"
+
+#. Text in function
+#: nibiru/format-quote.php:34 nibiru/content-single.php:32
+#: nibiru/inc/template-tags.php:67 nibiru/inc/template-tags.php:116
+#: nibiru/format.php:32 nibiru/format-video.php:33
+#: nibiru/single-portfolio.php:115 nibiru/content-page.php:67
+#: nibiru/format-image.php:34 nibiru/format-aside.php:26
+#: nibiru/format-link.php:39 nibiru/image.php:41
+msgid "Edit"
+msgstr "Editar"
+
+#. Text in function
+#: nibiru/format-quote.php:25 nibiru/content-single.php:23
+#: nibiru/format.php:23 nibiru/format-video.php:24 nibiru/format-image.php:25
+#: nibiru/format-aside.php:17 nibiru/format-link.php:30
+msgid "Leave a comment"
+msgstr "Deja un comentario"
+
+#. Text in function
+#: nibiru/comments.php:53
+msgid "Leave your comment"
+msgstr "Deje su comentario"
+
+#. Text in function
+#: nibiru/inc/shortcodes.php:1
+msgid "Logo"
+msgstr "Pronto"
+
+#. Text in function
+#: nibiru/inc/po-options.php:1
+msgid "Meet the team"
+msgstr "Conozca al equipo"
+
+#. Text in function
+#: nibiru/comments.php:37
+msgid "Newer Comments &rarr;"
+msgstr "Fecha Comentarios &rarr;"
+
+#. Text in function
+#: nibiru/inc/template-tags.php:44
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Los mensajes más recientes <span class=\"meta-nav\">&rarr;</span>"
+
+#. Text in function
+#: nibiru/comments.php:14
+msgid "No comments"
+msgstr "No hay comentarios"
+
+#. Text in function
+#: nibiru/comments.php:14
+msgid "One comment"
+msgstr "Un comentario"
+
+#. Text in echo
+#: nibiru/inc/template-tags.php:67
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#. Text in function
+#: nibiru/comments.php:53
+msgid "Post comment"
+msgstr "Enviar un comentario"
+
+#. Text in echo
+#: nibiru/inc/template-tags.php:30
+msgid "Post navigation"
+msgstr "Publique navegación"
+
+#. Text in function
+#: nibiru/inc/shortcodes.php:1348
+msgid "View All Projects"
+msgstr "Ver todos los proyectos"
+
+#. Text in function
+#: nibiru/inc/shortcodes.php:1817
+msgid "Visit Website"
+msgstr "visite el sitio Web"
+
+#. Text in function
+#: nibiru/inc/shortcodes.php:1817
+msgid "We are here!"
+msgstr "Estamos aquí!"
+
+#. Text in echo
+#: nibiru/inc/template-tags.php:109
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está pendiente de moderación."
+
+#. Text in function
+#: nibiru/comments.php:53
+msgid "Your name"
+msgstr "Su nombre"
+
+#. Text in function
+#: nibiru/comments.php:53
+msgid "Website"
+msgstr "Sitio Web"
+
+#. Text in function
+#: nibiru/comments.php:53
+msgid "Your email (will not be published)"
+msgstr "Tu email (no se publicará)"
+
+#. Text in function
+#: nibiru/inc/breadcrumbs.php:1
+msgid " <span class=\"delim\">(Page"
+msgstr " <span class=\"delim\">(Página"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "All Portfolio Categories"
+msgstr "Todas las Categorías Portafolio"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Edit Portfolio Category"
+msgstr "Categoría Cartera de Padres:"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "New Portfolio Category Name"
+msgstr "Parent Portfolio Category:"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Portfolio Category"
+msgstr "Categoría Cartera de Padres:"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Portfolio Category:"
+msgstr "Categoría Cartera de Padres:"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Portfolio Categories"
+msgstr "Portafolio Categorías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Search Portfolio Categories"
+msgstr "Buscar Cartera Categorías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Update Portfolio Category"
+msgstr "Actualización de la cartera Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Add New Gallery Category"
+msgstr "Crear Nuevo Gallery Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "All Gallery Categories"
+msgstr "Todos Gallery Categorías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Edit Gallery Category"
+msgstr "Editar Galería Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Gallery Categories"
+msgstr "Galería Categorías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "New Gallery Category Name"
+msgstr "Nueva Galería Categoría Nombre"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Gallery Category"
+msgstr "Galería de Padres Categoría"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Parent Gallery Category:"
+msgstr "Galería de Padres Categoría:"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Search Gallery Categories"
+msgstr "Buscar Galería Categorías"
+
+#. Text in function
+#: nibiru/inc/custom-post-types.php:1
+msgid "Update Gallery Category"
+msgstr "Update Galería Categoría"

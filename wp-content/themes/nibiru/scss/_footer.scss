@@ -1,0 +1,102 @@
+/* #footer
+--------------------------------------------------*/
+
+
+@charset "UTF-8";
+/* CSS Document */
+
+
+.po-page-container {
+	margin-bottom:350px;
+	border:1px solid #f00;
+}
+
+.footer-container-bottom {
+	padding:0;
+	margin:0;
+}
+
+@media(max-width:767px){
+	.footer-container h6 {
+		font-size:14px;
+		margin:0;
+	}
+}
+
+@media(min-width:768px){
+	.footer-container h6 {
+		font-size:14px;
+	}
+}
+
+
+.footer-container-bottom p {
+	font-size:13px;
+}
+
+.footer-container-bottom {
+	.collapse, .navbar-collapse, .navbar-ex1-collapse{
+		padding:0;
+		margin:0;
+	}
+}
+
+
+
+.recent-tweets ul
+{
+	padding-left:0;
+}
+
+.recent-tweets li
+{
+	padding:10px 0;
+	list-style:none;
+	border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+.recent-posts ul
+{
+	padding-left:0;
+}
+
+.recent-posts li
+{
+	display:block;
+	width:100%;
+	list-style:none;
+	margin-top:0px;
+	color:rgba(255,255,255,0.4);
+	border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+.recent-posts li a
+{
+	padding:10px 0;
+	display:block;
+	width:100%;
+}
+
+.recent-posts li a:hover
+{
+	display:block;
+	width:100%;
+}
+
+.recent-posts li a:after
+{
+	content:'\f105';
+	font-family:FontAwesome;
+	float:right;
+}
+
+
+.recent-posts li:last-child
+{
+	border-bottom:none;
+}
+
+.footer-inner-container
+{
+	padding:40px 0 40px;
+}

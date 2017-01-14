@@ -1,0 +1,55 @@
+/*
+Styles for older IE versions (previous to IE9).
+*/
+
+.po-navbar li a {
+	color:#999;
+}
+
+.client-image .client-container .client-details {
+	background:none;
+}
+
+.btn-icon,
+.btn-icon-left
+{
+	display:none;
+}
+
+
+
+.po-column img,
+.column-content img
+{ 
+	width: auto 
+}
+
+.slider-btn
+{
+	width:40%;
+}
+
+.po-carousel-ie li
+{
+	width: auto 
+}
+
+.po-carouseleds .bx-wrapper .bx-controls-direction{			
+	margin-top:-169px;
+}
+
+.po-column,
+.po-column.po-header-top,
+.po-column.po-header,
+.po-column.po-header-line,
+.po-column.po-header-line-thin,
+.po-column.po-header-small,
+.po-column.po-header-single
+{
+	opacity: 1;	
+}
+
+.po-slider-logo {
+	
+	display:block;
+}`
